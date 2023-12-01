@@ -22,7 +22,7 @@ FROM php:${PHP_VERSION}-fpm-alpine${PHP_ALPINE_VERSION} AS base
 ARG XDEBUG_VERSION
 
 # Maintainer label
-LABEL maintainer="sherifabdlnaby@gmail.com"
+LABEL maintainer="strikan95"
 
 # Set SHELL flags for RUN commands to allow -e and pipefail
 # Rationale: https://github.com/hadolint/hadolint/wiki/DL4006
